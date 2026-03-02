@@ -1,0 +1,65 @@
+body {
+  margin: 0px;
+  font-size: 14px;
+  font-family: 'merriweather', sans-serif;
+  background-color:#98F569;
+  color: #0312FA
+}
+
+
+h1, h2{
+  font-family: lobster, sans-serif;
+  font-size: 2rem;
+  text-shadow: 1.5px 1.5px red;
+  
+}
+
+div.reviewering{
+  background-color: #F5F1A4;
+  margin-left: 75px;
+  margin-right: 75px;
+  padding: 8px;
+  border-radius: 13px;
+  border: solid 3px #0312FA;
+}
+
+hr {
+  margin-left: 75px;
+  margin-right: 75px;
+  border-color: #0312FA;
+}
+
+a {
+  color: red;
+  font-size:15px
+}
+a:hover {
+  color:blue;
+}
+
+#text-style-1{
+  color: green;
+  font-size: 33px;
+}
+#text-style-2{
+  color: green;
+  font-size:33px
+}
+#text-style-3{
+  color: green;
+  font-size:33px
+}
+#text-style-4{
+  color: green;
+  font-size:33px
+}
+#text-style-5{
+  color: green;
+  font-size:33px
+}
+
+
+
+
+
+

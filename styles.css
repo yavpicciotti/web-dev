@@ -1,6 +1,34 @@
- p, h1, h2{
-   color:green;
-   font-size:12px;
+ /* comment here */
+body {
+  font-family: sans-seriff;
+  background-color: rgba(100, 100, 100, 0.5);
+  margin: 0px;
+}
+
+#bg-img {
+  position: fixed;
+  z-index: -1;
+  top: 0px;
+  width: 100vw;
+  height: 100vh;
+  opacity: 0.65
+}
+
+h1 {
+  background-color: blue; 
+  width: 49%;
+  padding: 10px;
+  margin: 5px auto;
+  text-align: center;
+  text-shadow: 2px 2px red;
+  border-radius: 10px;
+  border: solid 5px black;
+  
+}
+
+p, h2{
+   color: blue;
+   font-size:15px;
 }
 
  a {
@@ -13,10 +41,11 @@ a:hover {
       
 ul li {
   font-style:italic;
+  size: 15px;
 }
       
 .int-link, ol p {
-  font-weight:bolder;
+  font-weight:bold;
 }
       
 #mail-link {
@@ -24,5 +53,9 @@ ul li {
 }
       
 #mail-link {
-  color:blue;
+  color:green;
+}
+
+#footer {
+  background-image: url(https://static.vecteezy.com/system/resources/thumbnails/000/565/207/small/vector-may-2019-7.jpg);
 }

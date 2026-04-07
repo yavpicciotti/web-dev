@@ -1,0 +1,160 @@
+body{
+  margin: 0px;
+}
+
+a {
+  color: inherit;
+}
+
+h1 {
+  width: 50%;
+  text-align: center;
+  margin: 10px auto;
+}
+
+#nav-bar {
+  display: flex;
+  flex: 1 1 auto;
+  justify-content: space-evenly;
+  position: sticky;
+  top: 0px;
+  background-color: rgba(0, 255, 0, 1);
+}
+
+.nav-div {
+  text-align: center;
+  flex-grow: 1;
+  border-left: 1px black solid;
+  border-right: 1px black solid;
+  position: relative;
+  top: 0px;
+}
+
+.nav-div a {
+  display: inline-block;
+  width: 100%;
+  padding: 10px 0px 15px;
+  background-color: rgba(0, 0, 0, 0.8);
+  
+}
+
+.nav-div ul {
+  display: none;
+  position: absolute;
+  background-color: rgba(0, 200, 0, 0.8);
+  list-style-type: none;
+  padding-left: 0px;
+  margin: 0px;
+  width: 100%;
+}
+
+.nav-div:hover {
+  background-color: green;
+  font-weight: bolder;
+}
+
+.nav-div:hover a {
+  color: red;
+}
+
+.nav-div:hover ul {
+  display: block;
+}
+
+.nav-div ul a:hover {
+  background-color: red;
+}
+
+#main-content {
+  margin: 0px 15%;
+  background-color: rgba(0, 50, 255, 0.6);
+  padding: 5px 10px 2px;
+  
+}
+
+#bg-img {
+  position: fixed;
+  top: 0px;
+  left: 0px;
+  z-index: -99;
+  width: 100vw;
+  height: 100vh;
+}
+
+#preheader {
+  background-color: rgba(255, 255, 255)
+}
+
+#footer {
+  background-color: rgb(0, 90, 0);
+  display: flex;
+  flex: 1 1 auto;
+  justify-content: space-evenly;
+  color: white;
+}
+
+#publish-info {
+  flex-grow: 1;
+  text-align: right;
+  margin: 0px 5%;
+}
+
+#address {
+  flex-grow: 1;
+  text-align: left;
+  margin: 0px 5%;
+}
+
+.art-pic {
+  float: right;
+  border: solid 5px red;
+  border-color: rgb(0, 90, 0);
+  border-radius: 10px;
+}
+
+.art-pic img {
+  width: 200px;
+  height: 100px;
+}
+
+.art-pic-2 img {
+  width: 200px;
+  height: 100px;
+}
+
+.art-pic-2 {
+  float: left;
+  border: solid 4px red;
+  border-radius: 10px;
+  position: static;
+}
+
+.art-pic-3 img {
+  width: 100%;
+  height: 100px;
+}
+
+.art-pic-3 {
+  float: right;
+  border: solid 4px black;
+  border-radius: 10px;
+  width: 30%;
+}
+
+.art-pic p {
+  text-align: center;
+  font-size: 17px;
+  font-style: italic;
+  display: inline;
+}
+.art-pic-2 p {
+  text-align: center;
+  font-size: 17px;
+  font-style: italic;
+  display: hidden;
+}
+.art-pic-3 p {
+  text-align: center;
+  font-size: 17px;
+  font-style: italic;
+}

@@ -4,29 +4,27 @@
     <title>List Maker</title>
     <link rel="stylesheet" href="/web-dev/listmaker.css">
   </head>
-  <body>
-
-<script src="/web-dev/listmaker.js"></script>
-    
+  <body> 
+    <script src="/web-dev/headerinjection.js"></script>
     <div>
-  <h1>List Maker</h1>
-</div>
-
-<div id="content">
-  <div id="input-grp">
-    <label for="item-input">New Item: </label>
-    <input id="item-input" type="text">
-    <button onclick="addItem(event)">Add Item</button>
-    <button onclick="clearList(event)">Clear List</button>
- </div>
-  <div id="list-grp">
-    <ul id="list">
+      <h1>List Maker</h1>
+    </div>
+    
+    <div id="content">
+      <div id="input-grp">
+        <label for="item-input">New Item: </label>
+        <input id="item-input" type="text">
+        <button onclick="addItem(event)">Add Item</button>
+        <button onclick="clearList(event)">Clear List</button>
+     </div>
+      <div id="list-grp">
+        <ul id="list">
       
-    </ul>
-  </div>
-</div>
+        </ul>
+      </div>
+    </div>
 
-
+    <script src="/web-dev/listmaker.js"></script>
 
   </body>
 </html>
